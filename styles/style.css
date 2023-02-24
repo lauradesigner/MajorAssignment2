@@ -61,11 +61,23 @@ body{
     grid-template-columns: auto auto;
     padding: 10px;
   }
+  #right-paragraph{
+    background-color: orange;
+  }
 
   .grid-three-columns{
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 10px;
+  }
+  #left-column{
+    background-color: yellowgreen;
+  }
+  #middle-column{
+    background-color: orangered;
+  }
+  #right-column{
+    background-color: pink;
   }
 
   .grid-item {
