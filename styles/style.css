@@ -7,13 +7,12 @@ body {
     color: white;
     text-decoration: none;
   }
-  
   a:visited {
     color: white;
   }
   
   a:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(235, 107, 10, 0.5);
   }
   
   img {
@@ -21,17 +20,17 @@ body {
     display: block;
   }
   .grid-container-nav{
-    display:grid;
-    grid-template-columns: auto auto auto;
+    margin: auto; 
+    width: auto;
     padding: 10px;
-  }
-  nav {
-    /*root directory up one level*/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-auto-rows: 100px;
+    column-gap: 30px;
+    row-gap: 30px;
     background-image: url(https://prod-we-cdn-media.puregym.com/media/815182/energy-boosting-workout.jpg?quality=80);
-    background-size: 100%;
-    background-origin: content;
-    background-repeat: no-repeat;
   }
+
   .grid-item-nav1{
     display:grid;
     grid-template-columns: auto;
