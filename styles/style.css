@@ -11,6 +11,7 @@ body {
     padding: 10px;
     color: white;
     opacity: 90%;
+    column-gap: 60px;
   }
  
   .grid-item-nav{
@@ -18,13 +19,15 @@ body {
     row-gap: 20px;
     grid-template-columns: auto;
     padding: 10px;
-    min-height: 90%;
+    height: 40px;
     background-color: rgba(187, 163, 145, 0.5);
     text-align: center;
+    font-size: 20px;
   }
 
   .grid-item-nav:hover {
-    background-color: rgba(178, 140, 36, 0.5);
+    background-color: white;
+    color:black;
   }
   
   a:link {
@@ -66,7 +69,7 @@ body {
     padding: 10px
   }
   #left-column{
-    background-color: yellowgreen;
+    background-color: green;
     padding: 20px;
   }
   #middle-column{
@@ -74,7 +77,7 @@ body {
     padding: 20px;
   }
   #right-column{
-    background-color: pink;
+    background-color: orange;
     padding: 20px;
   }
   .grid-container-routine{
@@ -85,27 +88,27 @@ body {
     
   }
   .i1 {
-    background-color: blue;
+    background-color: orange;
     }
 
   .i2 {
-    background-color: brown;
+    background-color: orangered;
   }
 
   .i3 {
-    background-color: darkorchid;
+    background-color: green;
   }
 
   .i4 {
-    background-color: peru;
+    background-color: orange;
   }
 
   .i5 {
-    background-color: purple;
+    background-color: orangered;
   }
 
   .i6 {
-    background: thistle;
+    background: green;
   }
 
 }
@@ -129,13 +132,13 @@ body {
     padding: 10px
   }
   #left-column{
-    background-color: yellowgreen;
+    background-color: green;
   }
   #middle-column{
     background-color: orangered;
   }
   #right-column{
-    background-color: pink;
+    background-color: orange;
   }
 
   .grid-item {
@@ -151,27 +154,27 @@ body {
     row-gap: 30px;
   }
   .i1 {
-    background-color: blue;
+    background-color: orange;
     }
 
   .i2 {
-    background-color: brown;
+    background-color: orangered;
   }
 
   .i3 {
-    background-color: darkorchid;
+    background-color: green;
   }
 
   .i4 {
-    background-color: peru;
+    background-color: orange;
   }
 
   .i5 {
-    background-color: purple;
+    background-color: orangered;
   }
 
   .i6 {
-    background: thistle;
+    background: green;
   }
 }
 
@@ -195,13 +198,13 @@ body {
     padding: 10px
   }
   #left-column{
-    background-color: yellowgreen;
+    background-color: green;
   }
   #middle-column{
     background-color: orangered;
   }
   #right-column{
-    background-color: pink;
+    background-color: orange;
   }
 
   .grid-item {
@@ -218,30 +221,30 @@ body {
     row-gap: 30px;
   }
   .i1 {
-    background-color: blue;
+    background-color: orange;
     grid-column: 1/4;
     }
 
   .i2 {
-    background-color: brown;
+    background-color: orangered;
     grid-row: 2/4;
     grid-column: 1/3;
   }
 
   .i3 {
-    background-color: darkorchid;
+    background-color: green;
     grid-row: 2/4;
   }
 
   .i4 {
-    background-color: peru;
+    background-color: orange;
   }
 
   .i5 {
-    background-color: purple;
+    background-color: orangered;
   }
 
   .i6 {
-    background: thistle;
+    background: green;
   }
 }
