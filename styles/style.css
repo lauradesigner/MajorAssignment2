@@ -15,37 +15,38 @@ body {
     background-color: rgba(235, 107, 10, 0.5);
   }
   
-  img {
-    width: 100%;
-    display: block;
-  }
+
+  /*nav bar*/
+
   .grid-container-nav{
-    margin: auto; 
-    width: auto;
-    padding: 10px;
-    display: grid;
+    display:grid;
+    row-gap: 20px;
     grid-template-columns: auto auto auto;
-    grid-auto-rows: 100px;
-    column-gap: 30px;
-    row-gap: 30px;
-    background-image: url(https://prod-we-cdn-media.puregym.com/media/815182/energy-boosting-workout.jpg?quality=80);
+    padding: 10px;
+    color: white;
+    opacity: 90%;
+  }
+  
+  .grid-item-nav{
+    display:grid;
+    row-gap: 20px;
+    grid-template-columns: auto;
+    padding: 10px;
+    min-height: 90%;
+    
   }
 
-  .grid-item-nav1{
-    display:grid;
-    grid-template-columns: auto;
-    padding: 10px
+  a {
+    display: inline;
   }
-  .grid-item-nav2{
-    display:grid;
-    grid-template-columns: auto;
-    padding: 10px
+
+  .grid-item-nav:hover {
+    opacity: 80%;
+    filter: invert(100%);
+
   }
-  .grid-item-nav3{
-    display:grid;
-    grid-template-columns: auto;
-    padding: 10px
-  }
+
+
  
   /*This is for the subtitles only (benefits and goals)*/
   .title {
@@ -64,7 +65,9 @@ body {
     color:white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-
+  #mainpicture {
+    max-width: 100%;
+  }
 
 @media only screen and (max-width: 600px){
   /* for phones*/
@@ -113,8 +116,9 @@ body {
   .i6 {
     background: thistle;
   }
+
 }
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 601px){
   /* medium screen sizes*/
   .grid-container-2columns{
     display: grid;
@@ -181,7 +185,7 @@ body {
 }
 
 
-@media only screen and (min-width: 800px){
+@media only screen and (min-width: 1000px){
   /* huge screen sizes*/
   .grid-container-2columns{
     display: grid;
