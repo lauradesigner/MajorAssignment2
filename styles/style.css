@@ -12,6 +12,9 @@ body {
     color: white;
     opacity: 90%;
     column-gap: 60px;
+    background-image: url("../navigation.jpg");
+    background-position: center;
+    max-width: 100%;
   }
  
   .grid-item-nav{
@@ -37,7 +40,7 @@ body {
   a:visited {
     color: rgb(255, 255, 255);
   }
-  
+ 
   
   /*This is for the subtitles only (benefits and goals)*/
   .title {
@@ -60,8 +63,16 @@ body {
     max-width: 100%;
   }
 
+ 
 @media only screen and (max-width: 600px){
+
   /* for phones*/
+  .grid-container-2columns{
+    display: grid;
+    column-gap: 1px;
+    grid-template-columns: auto auto;
+    padding: 1px;
+  }
   .grid-container-3columns{
     display:grid;
     row-gap: 20px;
@@ -116,9 +127,9 @@ body {
   /* medium screen sizes*/
   .grid-container-2columns{
     display: grid;
-    column-gap: 40px;
-    grid-template-columns: auto;
-    padding: 10px;
+    column-gap: 1px;
+    grid-template-columns: auto auto;
+    padding: 1px;
   }
   #right-paragraph{
     background-color: orange;
@@ -183,9 +194,9 @@ body {
   /* huge screen sizes*/
   .grid-container-2columns{
     display: grid;
-    column-gap: 40px;
+    column-gap: 1px;
+    padding: 1px;
     grid-template-columns: auto auto;
-    padding: 10px;
   }
   #right-paragraph{
     background-color: orange;
