@@ -12,7 +12,7 @@ body {
     color: white;
     opacity: 90%;
     column-gap: 60px;
-    background-image: url("../navigation.jpg");
+    background-image: url("../images/navigation.jpg");
     background-position: center;
     max-width: 100%;
   }
