@@ -17,7 +17,7 @@ body {
     max-width: 100%;
   }
  
-  .grid-item-nav{
+ .grid-item-nav{
     display:grid;
     row-gap: 20px;
     grid-template-columns: auto;
@@ -259,3 +259,5 @@ body {
     background: green;
   }
 }
+
+
