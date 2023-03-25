@@ -1,0 +1,12 @@
+//imports mixins to this scss file
+@import "variables";
+@import "mixins";
+
+//overriding style of the titles
+.title {
+    @include style;
+}
+//overriding style for nav bar
+.grid-item-nav {
+    @include nav;
+}

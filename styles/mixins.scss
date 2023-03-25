@@ -1,0 +1,13 @@
+//style for titles
+@mixin style {
+   background-color: $backgroundColor;
+   color: $textColor;
+   width: $width;
+   border-radius: $radius;
+}
+
+@mixin nav{
+    color: $textColor;
+    background-color: $backgroundColorNav;
+    letter-spacing: $space;
+}
