@@ -1,12 +1,11 @@
 .title {
-  background-color: purple;
   color: pink;
-  width: 80%;
-  border-radius: 20%;
+  width: center;
+  border-radius: 10%;
+  letter-spacing: 8px;
 }
 
 .grid-item-nav {
-  color: pink;
-  background-color: rgb(228, 13, 13);
   letter-spacing: 8px;
+  background-color: black;
 }/*# sourceMappingURL=main.css.map */

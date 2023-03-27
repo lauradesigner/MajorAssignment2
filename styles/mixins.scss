@@ -1,13 +1,12 @@
 //style for titles
 @mixin style {
-   background-color: $backgroundColor;
    color: $textColor;
    width: $width;
    border-radius: $radius;
+   letter-spacing: $space;
 }
 //style for navigation bar
 @mixin nav{
-    color: $textColor;
-    background-color: $backgroundColorNav;
     letter-spacing: $space;
+    background-color: $backColor;
 }
